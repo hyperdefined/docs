@@ -1,4 +1,5 @@
 site_name: hyperdefined's Documentation
+site_url: "https://docs.hyper.lol"
 
 theme:
   name: material
@@ -80,10 +81,10 @@ nav:
 plugins:
   - glightbox
   - minify:
-      minify_html: false
+      minify_html: true
       minify_css: true
       htmlmin_opts:
-          remove_comments: false
+          remove_comments: true
       cache_safe: true
   - macros
 

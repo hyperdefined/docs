@@ -8,5 +8,3 @@ TimeBar has placeholders you can use in other parts of your server.
 - `%timebar_day_percent%` - shows the day completion percent.
 
 TimeBar titles also support other placeholders from other plugins.
-
-<p>Ancestors: {{ page.ancestors | default('No ancestors found') }}</p>
