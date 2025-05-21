@@ -1,0 +1,107 @@
+site_name: hyperdefined's Documentation
+
+theme:
+  name: material
+  custom_dir: 'overrides'
+  palette:
+    scheme: 'slate'
+    primary: 'black'
+    accent: 'blue'
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - content.code.annotate
+    - content.code.copy
+  code:
+    highlight_theme: github
+  icon:
+    admonition:
+
+
+repo_name: hyperdefined/docs
+repo_url: https://github.com/hyperdefined/docs
+
+copyright: |
+  &copy; hyperdefined
+
+nav:
+  - Home: index.md
+  - Software:
+    - Overview: software/index.md
+    - CustomLauncherRewrite:
+      - About: software/CustomLauncherRewrite/about.md
+      - Install: software/CustomLauncherRewrite/install.md
+      - Screenshots: software/CustomLauncherRewrite/screenshots.md
+      - Uninstall: software/CustomLauncherRewrite/uninstall.md
+      - Usage: software/CustomLauncherRewrite/usage.md
+  - Plugins:
+    - Overview: plugins/index.md
+    - AnarchyStats:
+      - About: plugins/anarchystats/about.md
+      - Commands: plugins/anarchystats/commands.md
+      - Configuration: plugins/anarchystats/configuration.md
+    - AutoWhitelistRemove:
+      - About: plugins/autowhitelistremove/about.md
+      - Commands: plugins/autowhitelistremove/commands.md
+      - Configuration: plugins/autowhitelistremove/configuration.md
+    - BuildNotifier:
+      - About: plugins/buildnotifier/about.md
+    - hyperMOTD:
+      - About: plugins/hyperMOTD/about.md
+      - Commands: plugins/hyperMOTD/commands.md
+      - Configuration: plugins/hyperMOTD/configuration.md
+    - NoEndCrystals:
+      - About: plugins/noendcrystals/about.md
+      - Commands: plugins/noendcrystals/commands.md
+      - Configuration: plugins/noendcrystals/configuration.md
+    - PerWorldChat:
+      - About: plugins/perworldchat/about.md
+      - Commands: plugins/perworldchat/commands.md
+    - SimplePlayTime:
+      - About: plugins/simpleplaytime/about.md
+      - Configuration: plugins/simpleplaytime/configuration.md
+    - TimeBar:
+      - About: plugins/timebar/about.md
+      - Commands: plugins/timebar/commands.md
+      - Configuration: plugins/timebar/configuration.md
+      - PlaceHolderAPI: plugins/timebar/placeholders.md
+      - RealisticSeasons Support: plugins/timebar/rs.md
+      - AdvancedSeasons Support: plugins/timebar/as.md
+    - ToolStats:
+      - About: plugins/toolstats/about.md
+      - Commands: plugins/toolstats/commands.md
+      - Configuration: plugins/toolstats/configuration.md
+      - Token System: plugins/toolstats/tokens.md
+
+plugins:
+  - glightbox
+  - minify:
+      minify_html: false
+      minify_css: true
+      htmlmin_opts:
+          remove_comments: false
+      cache_safe: true
+  - macros
+
+markdown_extensions:
+  - toc
+  - attr_list
+  - md_in_html
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences

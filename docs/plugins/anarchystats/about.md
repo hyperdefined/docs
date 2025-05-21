@@ -1,0 +1,14 @@
+---
+title: "AnarchyStats/About"
+---
+<p align="center">
+	<a href="https://modrinth.com/plugin/AnarchyStats"><img alt="modrinth" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/modrinth_vector.svg"></a>
+	<a href="https://hangar.papermc.io/hyperdefined/AnarchyStats"><img alt="hangar" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/hangar_vector.svg"></a>
+	<a href="https://papermc.io"><img alt="paper" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/supported/paper_vector.svg"></a>
+	<a href="https://discord.gg/rJuQXVcJz8"><img alt="discord-singular" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/social/discord-singular_vector.svg"></a>
+	<a href="https://buymeacoffee.com/hyperdefined"><img alt="buymeacoffee-singular" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/donate/buymeacoffee-singular_vector.svg"></a>
+</p>
+
+AnarchyStats is a Paper plugin to show server age, total players, and world size in a nice little command. This plugin is mainly focused towards anarchy servers to display their server’s information.
+
+![Image](assets/image.png)
