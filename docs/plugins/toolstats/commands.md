@@ -13,6 +13,18 @@ Permission: `toolstats.reset.confirm`
 
 Confirm the reset command.
 
+## `/toolstats purge`
+Permission: `toolstats.purge`
+
+Allows the player to remove ALL ToolStats data on an item. This remove all stats, tokens, ownership, and time creation data.
+
+## `/toolstats purge confirm`
+Permission: `toolstats.purge.confirm`
+
+Usage: `/toolstats purge confirm`
+
+Confirms the purge command.
+
 ## `/toolstats reload`
 Permission: `toolstats.reload`
 
