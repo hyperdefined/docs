@@ -2,14 +2,12 @@
 
 {% block extrahead %}
 {% set title = config.site_name %}
-<link rel="icon" type="image/png" href="https://canine.tools/assets/images/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="https://canine.tools/assets/images/favicon.svg" />
-<link rel="shortcut icon" href="https://canine.tools/assets/images/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="https://canine.tools/assets/images/apple-touch-icon.png" />
-<meta name="apple-mobile-web-app-title" content="canine.tools" />
-<link rel="manifest" href="https://canine.tools/assets/images/site.webmanifest" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://hyper.lol/assets/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://hyper.lol/assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://hyper.lol/assets/images/favicon-16x16.png">
+<meta name="apple-mobile-web-app-title" content="docs.hyper.lol" />
 <script defer data-domain="docs.hyper.lol" src="https://plausible.canine.tools/js/script.js"></script>
-<meta property="twitter:image" content="https://canine.tools/assets/images/wolves/6.jpg">
+<meta property="twitter:image" content="https://api.canine.tools/wolf/b8459eb734223b0c541e93e14aa7a47fc517f3bef1a8d923a53865280a61d11a/raw">
 <meta name="twitter:card" content="summary_large_image">
 
 {% if page and page.title and not page.is_homepage %}
@@ -24,7 +22,7 @@
 
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ page.canonical_url }}">
-<meta property="og:image" content="https://canine.tools/assets/images/wolves/6.jpg">
+<meta property="og:image" content="https://api.canine.tools/wolf/b8459eb734223b0c541e93e14aa7a47fc517f3bef1a8d923a53865280a61d11a/raw">
 <meta property="og:image:type" content="image/png" />
 
 {% if page and page.meta and page.meta.description %}

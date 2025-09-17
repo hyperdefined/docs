@@ -1,5 +1,5 @@
 ---
-description: I’m hyperdefined, a fluffy, flower wolf. I’m an IT nerd and developer. This is my main website for posting information about projects & my blog.
+description: "hyperdefined's central spot for documentation."
 hide:
   - toc
   - navigation
