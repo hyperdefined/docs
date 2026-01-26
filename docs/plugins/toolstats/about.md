@@ -16,13 +16,15 @@ Here is everything it tracks:
 - Blocks mined (pickaxes, shovels, axes, hoes, shears).
 - Crops mined (hoes).
 - Player/mob kills (swords, axes, tridents, bows/crossbows, mace).
-- Ownership of items when crafted, looted (from chests), traded, spawned via creative, and caught from fishing.
-- Armor damage taken.
+- Ownership of items when crafted, looted (from chests/vaults/barrels), traded, spawned via creative, and caught from fishing.
+- Armor damage taken (shields too).
 - Damage done with weapons.
 - Fish caught.
 - Sheep sheared.
 - Arrows shot (bows/crossbows).
 - Flight time with elytras.
+- Critical strikes for melee weapons.
+- Times trident thrown.
 
 ![Image](assets/image.png)
 ![Image](assets/image2.png)
