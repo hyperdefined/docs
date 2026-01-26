@@ -30,11 +30,15 @@ This section is used to enable/disable which data gets tracked on each item. It'
 - `arrows-shot`: This tag is used for tracking arrows shot from bows/crossbows.
 - `flight-time`: This tag is used for tracking elytra flight time.
 - `crops-harvested`: This tag is used for tracking how many crops are broken with a hoe.
+- `wither-kills`: This tag is used for tracking how many withers are killed.
+- `enderdragon-kills`: This tag is used for tracking how many ender dragons are killed.
+- `critical-strikes`: This tag is used for tracking how many critical hits are hit on melee weapons.
+- `trident-throws`: This tag is used for tracking how many times a trident is thrown.
 
 ## `messages`
 This section let's you set how the lore is displayed on the items.
 
-Each section is easy to understand. Make sure to keep the placeholder codes in order for the lore to show correctly. Some placeholders cannot be used for other sections.
+Each section is easy to understand. Make sure to keep the placeholder codes in order for the lore to show correctly. **Some placeholders cannot be used for other sections.**
 
 !!! danger "Warning"
     You should set these values **once**. The plugin tries to match this lore in order to update it on items. If you change it, it will fail to match resulting in duplicate lore.
@@ -54,6 +58,8 @@ Each section is easy to understand. Make sure to keep the placeholder codes in o
 - `{damage}`: The total damage taken.
 - `{crops}`: The total crops mined.
 - `{arrows}`: The total arrows shot.
+- `{times}`: Times trident thrown.
+- `{strikes}`: The total critical hits.
 - `{years}`/`{months}`/`{days}`/`{hours}`/`{minutes}`/`{seconds}`: Time for elytra flight.
 
 ## `date-format`
@@ -73,3 +79,8 @@ This forces item creation times to be set at 12:00 AM on the day. This means 2 i
 
 ## `allow-creative`
 Allow stats and origin tracking if you are in creative mode.
+
+## `world-limit`
+Allows only certain worlds to track stats. This is useful if you have a lobby/creative world (or similar) and want to disable ToolStats in them. Works on a whitelist/blacklist system.
+
+Simply enable the option, set the mode to either `whitelist`/`blacklist` and add the worlds for the mode.

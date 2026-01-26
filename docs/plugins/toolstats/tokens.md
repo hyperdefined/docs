@@ -30,9 +30,13 @@ If you want to use commands, you can use `/toolstats givetokens <player> <token-
 |---|---|---|
 | ![flight-time](assets/crafting/flight-time.png) <br>ID: `flight-time` | ![arrows-shot](assets/crafting/arrows-shot.png) <br>ID: `arrows-shot` | ![damage-taken](assets/crafting/damage-taken.png) <br>ID: `damage-taken` |
 
-| Damage Done |
-|---|
-| ![damage-done](assets/crafting/damage-done.png) <br>ID: `damage-done` |
+| Damage Done | Critical Strikes | Trident Throws |
+|---|---|---|
+| ![damage-done](assets/crafting/damage-done.png) <br>ID: `damage-done` | ![critical-strikes](assets/crafting/critical-strikes.png) <br>ID: `critical-strikes` | ![trident-throws](assets/crafting/trident-throws.png) <br>ID: `trident-throws` |
+
+| Wither Kills | Ender Dragon Kills |
+|---|---|
+| ![wither-kills](assets/crafting/damage-done.png) <br>ID: `wither-kills` | ![enderdragon-kills](assets/crafting/enderdragon-kills.png) <br>ID: `enderdragon-kills` |
 
 ## Using Tokens
 To use a token, simply apply it in an anvil like below. You can configure how many levels it takes for each in the config.
