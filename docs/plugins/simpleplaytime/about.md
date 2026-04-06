@@ -17,3 +17,4 @@ SimplePlayTime tracks playtime of players on your server.
 - Extremely lightweight.
 - Configure AFK timeout.
 - Command to see your playtime via `/playtime`.
+- Commands to add or reset playtime.
