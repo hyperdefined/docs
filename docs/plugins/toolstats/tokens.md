@@ -34,9 +34,9 @@ If you want to use commands, you can use `/toolstats givetokens <player> <token-
 |---|---|---|
 | ![damage-done](assets/crafting/damage-done.png) <br>ID: `damage-done` | ![critical-strikes](assets/crafting/critical-strikes.png) <br>ID: `critical-strikes` | ![trident-throws](assets/crafting/trident-throws.png) <br>ID: `trident-throws` |
 
-| Wither Kills | Ender Dragon Kills |
-|---|---|
-| ![wither-kills](assets/crafting/damage-done.png) <br>ID: `wither-kills` | ![enderdragon-kills](assets/crafting/enderdragon-kills.png) <br>ID: `enderdragon-kills` |
+| Wither Kills | Ender Dragon Kills | Logs Stripped |
+|---|---|---|
+| ![wither-kills](assets/crafting/damage-done.png) <br>ID: `wither-kills` | ![enderdragon-kills](assets/crafting/enderdragon-kills.png) <br>ID: `enderdragon-kills` | ![logs-stripped](assets/crafting/logs-stripped.png) <br>ID: `logs-stripped` |
 
 ## Using Tokens
 To use a token, simply apply it in an anvil like below. You can configure how many levels it takes for each in the config.

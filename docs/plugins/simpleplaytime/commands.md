@@ -13,13 +13,17 @@ Permission: `simpleplaytime.reload`
 
 Reloads the configuration.
 
-## `/playtime reset <player>`
+## `/playtime reset`
 Permission: `simpleplaytime.reset`
+
+Usage: `/simpleplaytime reset <player>`
 
 Reset a player's playtime to 0.
 
-## `/playtime add <time>`
+## `/playtime add`
 Permission: `simpleplaytime.add`
+
+Usage: `/simpleplaytime add <time>`
 
 Add time to a player's playtime. Use the format ##d##h##m###s. Here are some examples below:
 

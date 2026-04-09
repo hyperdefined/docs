@@ -13,17 +13,23 @@ Permission: `noendcrystals.worlds`
 
 Show the worlds list for the whitelist/blacklist.
 
-## `/noendcrystals add <world>`
+## `/noendcrystals add`
 Permission: `noendcrystals.add`
+
+Usage: `/noendcrystals add <world>`
 
 Add a world to the whitelist/blacklist list.
 
-## `/noendcrystals remove <world>`
+## `/noendcrystals remove`
 Permission: `noendcrystals.remove`
+
+Usage: `/noendcrystals remove <world>`
 
 Remove a world to the whitelist/blacklist list.
 
-## `/noendcrystals mode whitelist/blacklist`
+## `/noendcrystals mode`
 Permission: `noendcrystals.mode`
 
-Swap between whitelist or blacklist mode.
+Usage: `/noendcrystals add <mode>`
+
+Swap between `whitelist` or `blacklist` mode.

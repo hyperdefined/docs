@@ -50,3 +50,10 @@ Permission: `toolstats.remove`
 Usage: `/toolstats remove <stat>`
 
 Remove the stat of an item.
+
+## `/toolstats add`
+Permission: `toolstats.add`
+
+Usage: `/toolstats add <stat>`
+
+Add the stat to a given item, starting at 0.
