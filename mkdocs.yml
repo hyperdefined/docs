@@ -62,6 +62,7 @@ nav:
       - Commands: plugins/perworldchat/commands.md
     - SimplePlayTime:
       - About: plugins/simpleplaytime/about.md
+      - Commands: plugins/simpleplaytime/commands.md
       - Configuration: plugins/simpleplaytime/configuration.md
     - TimeBar:
       - About: plugins/timebar/about.md
@@ -78,6 +79,12 @@ nav:
     - VelocityBlockVersion:
       - About: plugins/velocityblockversion/about.md
       - Configuration: plugins/velocityblockversion/configuration.md
+  - Guides:
+    - Overview: guides/index.md
+    - cobalt:
+      - Overview: guides/cobalt/overview.md
+      - Setup on a Server: guides/cobalt/server.md
+      - Setup locally (Windows): guides/cobalt/windows.md
 
 plugins:
   - glightbox
@@ -107,3 +114,4 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.keys
