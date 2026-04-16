@@ -13,8 +13,9 @@ title: "ToolStats/About"
 ToolStats is a Paper plugin that displays various stats about tools. This plugin is inspired off of [GearStats](https://www.spigotmc.org/resources/gearstats.12960/). You can either track all statistics by default, or a use a token system to add statistics to tool/armor. You can configure how each statistic is shown on the item, or disable it!
 
 Here is everything it tracks:
+
 * Blocks mined (pickaxes, shovels, axes, hoes, shears).
-* Crops mined (hoes).
+* Crops harvested (hoes).
 * Player/mob kills (swords, axes, tridents, bows/crossbows, mace).
 * Ownership of items when crafted, looted (from chests/vaults/barrels), traded, spawned via creative, and caught from fishing.
 * Armor damage taken (shields too).
@@ -30,19 +31,31 @@ Here is everything it tracks:
 The best part is, this data is stored on the item itself.
 
 This plugin also has compatibility for:
+
 * [RoseStacker](https://modrinth.com/plugin/rosestacker)
 
-![Image](assets/image.png)
-![Image](assets/image2.png)
-![Image](assets/image3.png)
-![Image](assets/image4.png)
-![Image](assets/image5.png)
-![Image](assets/image6.png)
-![Image](assets/image7.png)
-![Image](assets/image8.png)
-![Image](assets/image9.png)
-![Image](assets/image10.png)
-![Image](assets/image11.png)
-![Image](assets/image13.png)
-![Image](assets/image14.png)
-![Image](assets/image12.png)
+You can see some of the stats below as examples:
+
+| Crafted Origin | Player/Mob Kills | Fish Caught |
+|---|---|---|
+| ![Image](assets/image.png) | ![Image](assets/image2.png) | ![Image](assets/image3.png) |
+
+| Sheep Sheared | Dropped By | Damage Taken |
+|---|---|---|
+| ![Image](assets/image4.png) | ![Image](assets/image5.png) | ![Image](assets/image6.png) |
+
+| Mob Kills | Elytra | Looted Origin |
+|---|---|---|
+| ![Image](assets/image7.png) | ![Image](assets/image8.png) | ![Image](assets/image9.png) |
+
+| Traded Origin | Spawned Origin | Raw NBT Data |
+|---|---|---|
+| ![Image](assets/image10.png) | ![Image](assets/image11.png) | ![Image](assets/image12.png) |
+
+| Crops Harvested | Flight Time | Arrows Shot |
+|---|---|---|
+| ![Image](assets/image13.png) | ![Image](assets/image14.png) | ![Image](assets/image15.png) |
+
+| Critical Strikes | Trident Throws | Logs Stripped |
+|---|---|---|
+| ![Image](assets/image16.png) | ![Image](assets/image17.png) | ![Image](assets/image18.png) |

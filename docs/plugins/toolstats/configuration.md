@@ -34,6 +34,7 @@ This section is used to enable/disable which data gets tracked on each item. It'
 - `enderdragon-kills`: This tag is used for tracking how many ender dragons are killed.
 - `critical-strikes`: This tag is used for tracking how many critical hits are hit on melee weapons.
 - `trident-throws`: This tag is used for tracking how many times a trident is thrown.
+- `logs-stripped`: This tag is used for tracking how many times a log is stripped with an axe.
 
 ## `messages`
 This section let's you set how the lore is displayed on the items.
@@ -61,6 +62,7 @@ Each section is easy to understand. Make sure to keep the placeholder codes in o
 - `{times}`: Times trident thrown.
 - `{strikes}`: The total critical hits.
 - `{years}`/`{months}`/`{days}`/`{hours}`/`{minutes}`/`{seconds}`: Time for elytra flight.
+- `{logs}`: The total logs stripped.
 
 ## `date-format`
 This lets you choose how dates are formatted. The default option is Month/Day/Year. If you wish to change it, refer to [this chart](https://www.digitalocean.com/community/tutorials/java-simpledateformat-java-date-format#java-simpledateformat) for formatting codes.
