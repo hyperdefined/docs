@@ -49,8 +49,6 @@ nav:
       - About: plugins/autowhitelistremove/about.md
       - Commands: plugins/autowhitelistremove/commands.md
       - Configuration: plugins/autowhitelistremove/configuration.md
-    - BuildNotifier:
-      - About: plugins/buildnotifier/about.md
     - hyperMOTD:
       - About: plugins/hyperMOTD/about.md
       - Commands: plugins/hyperMOTD/commands.md
@@ -77,6 +75,9 @@ nav:
       - Commands: plugins/toolstats/commands.md
       - Configuration: plugins/toolstats/configuration.md
       - Token System: plugins/toolstats/tokens.md
+    - VelocityBlockVersion:
+      - About: plugins/velocityblockversion/about.md
+      - Configuration: plugins/velocityblockversion/configuration.md
 
 plugins:
   - glightbox
