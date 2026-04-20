@@ -21,19 +21,20 @@ This guide showcases how to setup your own cobalt web instance. cobalt web is th
 ## Setup Container
 Add this container to your current `compose.yml`. If you don't have one, then simply make one.
 ```yaml
-cobalt-web:
-    image: ghcr.io/spotdemo4/cobalt-web:latest
-    container_name: cobalt_web
-    restart: unless-stopped
-    environment:
-      - WEB_DEFAULT_API=https://api.cobalt.tools/
-      - WEB_HOST=cobalt.tools
-      - ENABLE_DEPRECATED_YOUTUBE_HLS=true
-      - WEB_PLAUSIBLE_HOST=plausible.io
-      - PORT=9002
-      - LOG_LEVEL=info
-    ports:
-      - 127.0.0.1:9002:9002
+services:
+    cobalt-web:
+        image: ghcr.io/spotdemo4/cobalt-web:latest
+        container_name: cobalt_web
+        restart: unless-stopped
+        environment:
+          - WEB_DEFAULT_API=https://api.cobalt.tools/
+          - WEB_HOST=cobalt.tools
+          - ENABLE_DEPRECATED_YOUTUBE_HLS=true
+          - WEB_PLAUSIBLE_HOST=plausible.io
+          - PORT=9002
+          - LOG_LEVEL=info
+        ports:
+          - 127.0.0.1:9002:9002
 ```
 
 You'll need to edit some of the environment variables. Here are the ones to change:
