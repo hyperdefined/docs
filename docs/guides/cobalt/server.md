@@ -73,6 +73,7 @@ services:
       - YOUTUBE_GENERATE_PO_TOKENS=1
       - YOUTUBE_USE_ONESIE=1
       - HTTP_PROXY=http://warp_proxy:9001
+      - HTTPS_PROXY=http://warp_proxy:9001
       - API_REDIS_URL=redis://valkey:6379
       - API_INSTANCE_COUNT=4
     tmpfs:
@@ -160,7 +161,7 @@ You'll need to setup a reverse proxy to proxy your domain to point to cobalt. Th
 These are examples, so seek out what webserver software you are using.
 
 ```caddy title="Caddy"
-cobalt.example.com {
+cobalt-api.example.com {
     reverse_proxy localhost:9000
 }
 ```
@@ -169,7 +170,7 @@ cobalt.example.com {
 # HTTP, redirected to HTTP
 server {
     listen 80;
-    server_name cobalt.example.com;
+    server_name cobalt-api.example.com;
 
     return 301 https://$host$request_uri;
 }
@@ -177,10 +178,10 @@ server {
 # HTTPS
 server {
     listen 443 ssl;
-    server_name cobalt.example.com;
+    server_name cobalt-api.example.com;
 
-    ssl_certificate /etc/letsencrypt/live/cobalt.example.com/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/cobalt.example.com/privkey.pem;
+    ssl_certificate /etc/letsencrypt/live/cobalt-api.example.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/cobalt-api.example.com/privkey.pem;
 
     location / {
         proxy_pass http://127.0.0.1:9000;

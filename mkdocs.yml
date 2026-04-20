@@ -85,6 +85,7 @@ nav:
       - Overview: guides/cobalt/overview.md
       - Setup on a Server: guides/cobalt/server.md
       - Setup locally (Windows): guides/cobalt/windows.md
+      - Host Web: guides/cobalt/web.md
 
 plugins:
   - glightbox
